@@ -188,8 +188,7 @@
       "obsidian-projects:Open projects": false,
       "dbfolder:Create a new database table": false,
       "templater-obsidian:Templater": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+      "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
   "active": "4941a4227f2722be",
