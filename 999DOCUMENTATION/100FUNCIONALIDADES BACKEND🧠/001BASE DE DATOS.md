@@ -174,7 +174,7 @@ El **seeding** es la forma de **rellenar los datos** de la base de datos mediant
 Se localizan los ficheros en **database/seeders**
 
 Para crear un nuevo fichero semilla:
-- ! php artisan make:seeder UsersTableSeeder
+- ! php artisan make:seeder DatabaseSeeder.php (en este caso este seeder está por defecto).
 Para insertar datos en la BD usamos el comando de Artisan
 - ! php artisan db:seed
 Para restaurar la base de datos completamente en desarrollo, incluyendo las migraciones y las semillas:
@@ -239,9 +239,7 @@ public function run(): void
 //Si ejecutas en visual studio code alt + z puedes leer todo el código de visual studio code en la ventana.
 ```
 
-
-
-### Atajos para trabajar más rápido 06-07-2024
+### 06-07-2024 Atajos para trabajar más rápido 
 Después de realizar los cambios en la base de datos para adaptar a la nueva base de datos, debemos ejecutar el siguiente comando:
 
 Para refrescar solamente la base de datos.
