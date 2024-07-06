@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md"
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -202,10 +202,10 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "bab2f1ccadbad76e",
+  "active": "c4022f8fbdaa1f3d",
   "lastOpenFiles": [
-    "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
     "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+    "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
     "700IMAGES/001BASE DE DATOS-20240706195250853.webp",
     "700IMAGES",
     "Excalidraw/001BASE DE DATOS 2024-07-06 19.48.12.excalidraw.md",
