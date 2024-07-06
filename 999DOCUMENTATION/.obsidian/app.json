@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {}
 =======
+=======
+>>>>>>> 52a7412 (Obsidian add)
 {
   "promptDelete": false,
   "pdfExportSettings": {
@@ -9,5 +12,9 @@
     "margin": "0",
     "downscalePercent": 100
   }
+<<<<<<< HEAD
+}
+>>>>>>> 52a7412 (Obsidian add)
+=======
 }
 >>>>>>> 52a7412 (Obsidian add)
