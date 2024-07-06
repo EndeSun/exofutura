@@ -10,11 +10,12 @@ kanban-plugin: basic
 
 ## DOING
 
-- [ ] EX001. Creación de la base de datos y documentación de los comandos en el terminal.
+- [ ] EX002. Creación de las semillas para rellenar los datos. ENDE
 
 
 ## DONE
 
+- [ ] EX001. Creación de la base de datos y documentación de los comandos en el terminal.
 
 
 
