@@ -1,0 +1,2 @@
+- [x] EX001. Creación de la base de datos y documentación de los comandos en el terminal. ENDE.
+- [ ] 
