@@ -11,8 +11,12 @@
             "id": "4941a4227f2722be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +109,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md"
+              }
             }
           },
           {
@@ -113,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -184,7 +192,7 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "4941a4227f2722be",
+  "active": "bab2f1ccadbad76e",
   "lastOpenFiles": [
     "600GESTIÓN DE PROYECTOS💵/620Sprint Backlog.md",
     "600GESTIÓN DE PROYECTOS💵/SPRINTS SEMANALES",
