@@ -11,9 +11,11 @@
             "id": "4941a4227f2722be",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md"
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md"
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md"
               }
             }
           },
@@ -118,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,10 +194,11 @@
   },
   "active": "4941a4227f2722be",
   "lastOpenFiles": [
+    "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
+    "100FUNCIONALIDADES BACKEND🧠/003API.md",
+    "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
     "600GESTIÓN DE PROYECTOS💵/610Product Backlog.md",
     "600GESTIÓN DE PROYECTOS💵/620Sprint Backlog.md",
-    "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
-    "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
     "600GESTIÓN DE PROYECTOS💵/SPRINTS SEMANALES",
     "600GESTIÓN DE PROYECTOS💵/603Luis Kanvan.md",
     "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",

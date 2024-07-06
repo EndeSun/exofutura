@@ -6,11 +6,11 @@ kanban-plugin: basic
 
 ## TO_DO
 
-- [ ] EX003. Creación de APIRoutes y exposición de la rutaAPI con un get. ENDE
 
 
 ## DOING
 
+- [ ] EX003. Creación de APIRoutes y exposición de la rutaAPI con un get. ENDE
 
 
 ## DONE
