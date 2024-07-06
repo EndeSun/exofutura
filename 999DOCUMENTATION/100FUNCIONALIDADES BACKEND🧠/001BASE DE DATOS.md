@@ -1,4 +1,104 @@
 # BASE DE DATOS
+### CÓDIGO BASE DE DATOS EN DBDIAGRAM
+Table users{
+
+  id int [primary key]
+
+  name string 
+
+  email string
+
+  credits_used int
+
+  credits_got int
+
+}
+
+  
+
+Table registerCommerces{
+
+  user_id int 
+
+  commerce_id int
+
+}
+
+  
+
+Ref:registerCommerces.user_id <> users.id
+
+Ref:registerCommerces.commerce_id <> commerces.id
+
+  
+
+Table zones{
+
+  id int [primary key]
+
+  latitude decimal
+
+  longitude decimal
+
+  radius decimal
+
+  description string
+
+  content string
+
+}
+
+  
+
+Table registerZones{
+
+  user_id int [note: "Control de estadísticas del usuario"]
+
+  zone_id int
+
+  unlocked bool
+
+}
+
+  
+
+Ref:registerZones.user_id <> users.id
+
+Ref:registerZones.zone_id <> zones.id
+
+  
+
+  
+
+Table promotions{
+
+  id int [primary key]
+
+  title string
+
+  description string
+
+  content string
+
+  credits int [note: "Controlada con umbrales en un principio"]
+
+}
+
+  
+
+Table commerces{
+
+  id int [primary key]
+
+  name string
+
+  description string
+
+  promotion_id int 
+
+}
+
+Ref:commerces.promotion_id < promotions.id
 ### CREACIÓN DE LA BASE DE DATOS
 Para la instalación de las migraciones en la base de datos debemos modificar en el fichero de .env (si se baja al local la primera vez, tendríamos un fichero que se llama .env_example, se modificaría en ese y se cambia el nombre a .env).
 
@@ -17,16 +117,20 @@ DB_PASSWORD= contraseña_del_usuario
 
 ![[001BASE DE DATOS 2024-07-06 19.48.12.excalidraw|1200]]
 ### CREACIÓN DE LAS MIGRACIONES
+
 Las migraciones se guardan en database/migrations.
 Cada tabla o cambio que queremos hacer en la BD creamos una migración.
 
 Para crear una nueva migración:
+- ! **(CUIDADO CON EL ORDEN DE CREACIÓN DE LAS TABLAS)**
 - ! php artisan make:migration create_users_table.
-Para lanzar o ejecutar las últimas migraciones: (CUIDADO CON EL ORDEN DE CREACIÓN DE LAS TABLAS)
+
+Para lanzar o ejecutar las últimas migraciones: 
+
 - ! php artisan migrate
 Para deshacer la última migración
 - ! php artisan migrate:rollback
-Para deshacer todas las migraciones:
+Para deshacer todas las migraciones, **¡cuidado con cambiar el nombre de los ficheros!**:
 - ! php artisan migrate:reset
 Para deshacer todas las migraciones y volver a lanzarlas:
 - ! php artisan migrate:refresh o migrate:fresh
@@ -63,9 +167,9 @@ Schema::create('users', function (Blueprint $table) {
 ##### Ejemplo de atributos de la base de datos
 ![[001BASE DE DATOS-20240706195250853.webp]]
 ### SEEDING DE LA BASE DE DATOS
-El seeding es la forma de rellenar los datos de la base de datos mediante comandos. 
+El **seeding** es la forma de **rellenar los datos** de la base de datos mediante comandos. 
 
-Seguir los siguientes pasos:
+**Seguir los siguientes pasos**:
 
 Se localizan los ficheros en **database/seeders**
 
@@ -135,3 +239,12 @@ public function run(): void
 //Si ejecutas en visual studio code alt + z puedes leer todo el código de visual studio code en la ventana.
 ```
 
+
+
+### Atajos para trabajar más rápido 06-07-2024
+Después de realizar los cambios en la base de datos para adaptar a la nueva base de datos, debemos ejecutar el siguiente comando:
+
+Para refrescar solamente la base de datos.
+- ! php artisan migrate:refresh
+Para refrescar y añadir datos a la tabla.
+- ! php artisan migrate:refresh --seed
