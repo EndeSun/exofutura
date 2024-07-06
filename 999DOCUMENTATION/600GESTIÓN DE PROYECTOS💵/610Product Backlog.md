@@ -1,0 +1,3 @@
+- [x] EX001. Creación de la base de datos y documentación de los comandos en el terminal. ENDE.
+- [ ] EX002. Creación de las semillas para rellenar los datos. ENDE
+- [ ] 
