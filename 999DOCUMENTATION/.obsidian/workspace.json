@@ -16,8 +16,21 @@
                 "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md"
               }
             }
+          },
+          {
+            "id": "c4022f8fbdaa1f3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md"
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md"
               }
             }
           },
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -144,7 +157,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "37631005a6ad03e6",
@@ -171,8 +184,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 460.5,
-    "collapsed": true
+    "width": 274.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,11 +202,24 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "bab2f1ccadbad76e",
+  "active": "c4022f8fbdaa1f3d",
   "lastOpenFiles": [
+    "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+    "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
+    "700IMAGES/001BASE DE DATOS-20240706195250853.webp",
+    "700IMAGES",
+    "Excalidraw/001BASE DE DATOS 2024-07-06 19.48.12.excalidraw.md",
+    "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
+    "700IMAGES/Pasted Image 20240706194817_083.png",
+    "700IMAGES/Pasted Image 20240706194817_079.png",
+    "700IMAGES/Pasted Image 20240706194817_073.png",
+    "700IMAGES/Pasted Image 20240706194817_066.png",
+    "700IMAGES/Pasted Image 20240706194817_055.png",
+    "700IMAGES/Pasted Image 20240706194817_052.png",
+    "Excalidraw",
+    "600GESTIÓN DE PROYECTOS💵/610Product Backlog.md",
     "600GESTIÓN DE PROYECTOS💵/602Jack Kanvan.md",
     "600GESTIÓN DE PROYECTOS💵/603Luis Kanvan.md",
-    "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
     "100 Estudios/Máster_Software/009 TFM - Ecommerce/Ecommerce Project Backlog.md",
     "100 Estudios/Máster_Software/009 TFM - Ecommerce/Calendar Tasks/2024-06.md",
     "100 Estudios/Máster_Software/009 TFM - Ecommerce/Calendar Tasks/2024-07.md",
@@ -215,13 +240,9 @@
     "200 Trabajo/Particulares/Yu/2024-05-25 Yu.md",
     "200 Trabajo/Particulares/Yu/2024-04-10.md",
     "200 Trabajo/Particulares/Yu/2024-04-07.md",
-    "200 Trabajo/Osunasport/2024-07-05.md",
-    "200 Trabajo/Youwei/001 Diseño de la carta.md",
     "2024-07-05-20240705122356213.webp",
     "2024-07-05-20240705122021902.webp",
     "2024-07-05-20240705113919594.webp",
-    "2024-07-05.md",
-    "200 Trabajo/Osunasport/2024-06-14.md",
     "200 Trabajo/Osunasport",
     "200 Trabajo/Osanasport",
     "200 Trabajo/Youwei",
@@ -229,21 +250,12 @@
     "100 Estudios/Máster_Software/009 TFM - Ecommerce/Esquema del código.canvas",
     "100 Estudios/Máster_Software/009 TFM - Ecommerce/TFM_Ende_Sun.pdf",
     "2024-06-16 Wei.pdf",
-    "200 Trabajo/Particulares/Rang Rang/ASSETS/ASSETS/Pasted Image 20240518100651_933.png",
-    "200 Trabajo/Particulares/Rang Rang/ASSETS/ASSETS/Pasted Image 20240518100649_031.png",
-    "200 Trabajo/Particulares/Rang Rang/ASSETS/ASSETS/Pasted Image 20240518095804_888.png",
-    "200 Trabajo/Particulares/Rang Rang/ASSETS/ASSETS/Pasted Image 20240518094401_758.png",
-    "200 Trabajo/Particulares/Rang Rang/ASSETS/ASSETS/Pasted Image 20240518090622_123.png",
-    "Excalidraw/ASSETS/Pasted Image 20240517222216_309.png",
     "100 Estudios/Máster_Software/006 Programación optimizada para dispositivos móviles/011 P2_diagrama_código.canvas",
     "100 Estudios/Máster_Software/005 Videojuegos/Proyecto final/PROYECTO FINAL.canvas",
     "100 Estudios/Máster_Software/005 Videojuegos/Apuntes",
     "Sin título.canvas",
-    "200 Trabajo/Particulares/Yu/ASSETS/ASSETS/Pasted Image 20240511134314_222.png",
     "200 Trabajo/Particulares/Yu/ASSETS/ASSETS",
     "100 Estudios/Máster_Software/006 Programación optimizada para dispositivos móviles/ASSETS/ASSETS",
-    "200 Trabajo/Particulares/Moyu/ASSETS",
-    "200 Trabajo/Particulares/Moyu",
     "Sin título 1.canvas",
     "Estudiar hoy.canvas",
     "Sin título 2.canvas",
