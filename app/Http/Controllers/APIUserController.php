@@ -12,4 +12,15 @@ class APIUserController extends Controller
         return response()->json(User::all());
     }
 
+    public function show($id)
+    {
+        $user = User::find($id);
+        // Verifica si el usuario existe
+        if (!$user) {
+            return response()->json(['error' => 'User not found'], 404);
+        }
+        // Devuelve el usuario encontrado
+        return response()->json($user);
+    }
+
 }

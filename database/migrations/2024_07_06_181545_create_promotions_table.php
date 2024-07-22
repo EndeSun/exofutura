@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('promotions', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('commerce_id')->constrained()->onDelete('cascade')->onUpdate('cascade'); 
             $table->string('title');
             $table->string('description');
             $table->string('content');
