@@ -14,7 +14,14 @@ use Illuminate\Http\Request;
 
 
 ```
-Ejecutar el siguiente comando para crear un modelo, laravel te gestiona automáticamente la creación del modelo.
+
+Ejecutar el siguiente comando para crear un modelo, Laravel te gestiona **automáticamente** la creación del modelo.
+
 - ! php artisan make:model Movie 
 
 - ! Por eso, al establecer los nombres de las bases de datos, tenemos que ponerlo en minúscula y en plural.
+
+## Relaciones entre los modelos
+Para más información:
+https://laravel.com/docs/11.x/eloquent-relationships
+

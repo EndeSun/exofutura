@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 //MARK: MODELS CALL
 use App\Models\User;
 use App\Models\Zone;
-use App\Models\Registerzone;
+use App\Models\UserZone;
 use App\Models\Promotion;
 use App\Models\Commerce;
 use App\Models\Registercommerce;
@@ -94,8 +94,8 @@ class DatabaseSeeder extends Seeder
         }
     }
 
-    //MARK: REGISTERZONES SEED
-    private $registerzones = [
+    //MARK: USERZONES SEED
+    private $userzoneNews = [
         [
             'user_id' => 1,
             'zone_id' => 1,
@@ -129,35 +129,30 @@ class DatabaseSeeder extends Seeder
         ]
     ];
 
-    private function seedRegisterZones()
+    private function seedUserZones()
     {
-        DB::table('registerzones')->delete();
-        foreach ($this->registerzones as $registerzone) {
-
-            $rz = new Registerzone;
-            $rz->user_id = $registerzone['user_id'];
-            $rz->zone_id = $registerzone['zone_id'];
-            $rz->unlocked = $registerzone['unlocked'];
-            $rz->save();
-
-        }
+        DB::table('user_zone')->delete();
+        DB::table('user_zone')->insert($this->userzoneNews);
     }
 
     //MARK: PROMOTIONS SEED
     private $promotions = [
         [
+            'commerce_id' => 1,
             'title' => "Promoción 2x1",
             'description' => "Promoción 2x1 en cervezas",
             'content' => "Contenido de la promoción 2x1",
             'credits' => 1
         ],
         [
+            'commerce_id' => 1,
             'title' => "Descuento 10%",
             'description' => "Descuento del 10% en todos los accesorios",
             'content' => "Contenido de la promoción descuento 10%",
             'credits' => 2
         ],
         [
+            'commerce_id' => 2,
             'title' => "Descuento 20%",
             'description' => "Descuento del 20% en todos los productos",
             'content' => "Contenido de la promoción descuento 20%",
@@ -170,6 +165,7 @@ class DatabaseSeeder extends Seeder
         DB::table('promotions')->delete();
         foreach ($this->promotions as $promotion) {
             $promo = new Promotion;
+            $promo->commerce_id = $promotion['commerce_id'];
             $promo->title = $promotion['title'];
             $promo->description = $promotion['description'];
             $promo->content = $promotion['content'];
@@ -181,17 +177,14 @@ class DatabaseSeeder extends Seeder
     //MARK: COMMERCES SEED
     private $commerces = [
         [
-            'promotion_id' => 1,
             'name' => "Cervecería Ende",
             'description' => "Vendemos todo tipo de cervezas artesanales"
         ],
         [
-            'promotion_id' => 2,
             'name' => "Accesorios Jack",
             'description' => "Vendemos todo tipo de accesorios industriales"
         ],
         [
-            'promotion_id' => 3,
             'name' => "Productos Luisjo",
             'description' => "Vendemos todo tipo de productos fisioterapeuticos"
         ]
@@ -202,7 +195,6 @@ class DatabaseSeeder extends Seeder
         DB::table('commerces')->delete();
         foreach ($this->commerces as $commerce) {
             $commer = new Commerce;
-            $commer->promotion_id = $commerce['promotion_id'];
             $commer->name = $commerce['name'];
             $commer->description = $commerce['description'];
             $commer->save();
@@ -251,18 +243,16 @@ class DatabaseSeeder extends Seeder
         self::seedZones();
         $this->command->info("Tabla zones inicializada con datos!");
 
-        self::seedRegisterZones();
-        $this->command->info("Tabla registerzone inicializada con datos!");
-
-        self::seedPromotions();
-        $this->command->info("Tabla promotions inicializada con datos!");
+        self::seedUserZones();
+        $this->command->info("Tabla user_zone inicializada con datos!");
 
         self::seedCommerces();
         $this->command->info("Tabla commerces inicializada con datos!");
 
+        self::seedPromotions();
+        $this->command->info("Tabla promotions inicializada con datos!");
+
         self::seedRegistercommerces();
         $this->command->info("Tabla registercommerces inicializada con datos!");
-
-
     }
 }

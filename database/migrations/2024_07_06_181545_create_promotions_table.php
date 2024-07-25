@@ -11,10 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('registerzones', function (Blueprint $table) {
-            $table->foreignId('user_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-            $table->foreignId('zone_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-            $table->boolean('unlocked')->default(false);
+        Schema::create('promotions', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('commerce_id')->constrained()->onDelete('cascade')->onUpdate('cascade'); 
+            $table->string('title');
+            $table->string('description');
+            $table->string('content');
+            $table->string('credits');
             $table->timestamps();
         });
     }
@@ -24,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('registerzones');
+        Schema::dropIfExists('promotions');
     }
 };
