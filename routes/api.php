@@ -19,7 +19,12 @@ Route::apiResource('/v1/zones', APIZoneController::class);
 Route::apiResource('/v1/commerces', APICommerceController::class);
 //Obtener las promociones de un comercio en concreto
 Route::get('/v1/commerce/{commerceId}/promotions', [APIPromotionController::class, 'getPromotionsByCommerce']);
+
 Route::apiResource('/v1/promotions', APIPromotionController::class);
+Route::get('/v1/users/{userId}/registerZones', [APIZoneController::class, 'getUnlockedZonesByUser']);
+
+Route::put('/v1/zone/{userId}/{zoneId}', [APIZoneController::class, 'putZoneDiscovery']);
+
 
 
 

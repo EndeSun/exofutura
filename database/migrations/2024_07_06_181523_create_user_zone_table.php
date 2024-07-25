@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('registerzones', function (Blueprint $table) {
+        Schema::create('user_zone', function (Blueprint $table) {
             $table->foreignId('user_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignId('zone_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->boolean('unlocked')->default(false);
@@ -24,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('registerzones');
+        Schema::dropIfExists('user_zone');
     }
 };
