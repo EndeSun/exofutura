@@ -20,3 +20,8 @@ Ejecutar el siguiente comando para crear un modelo, Laravel te gestiona **autom�
 - ! php artisan make:model Movie 
 
 - ! Por eso, al establecer los nombres de las bases de datos, tenemos que ponerlo en minúscula y en plural.
+
+## Relaciones entre los modelos
+Para más información:
+https://laravel.com/docs/11.x/eloquent-relationships
+

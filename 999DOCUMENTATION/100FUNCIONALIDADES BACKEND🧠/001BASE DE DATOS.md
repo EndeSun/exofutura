@@ -1,104 +1,60 @@
 # BASE DE DATOS
 ### CÓDIGO BASE DE DATOS EN DBDIAGRAM
+```
 Table users{
-
-  id int [primary key]
-
-  name string 
-
-  email string
-
-  credits_used int
-
-  credits_got int
-
+	id int [primary key]
+	name string
+	email string
+	credits_used int
+	credits_got int
 }
-
-  
 
 Table registerCommerces{
-
-  user_id int 
-
-  commerce_id int
-
+	user_id int
+	commerce_id int
 }
-
-  
 
 Ref:registerCommerces.user_id <> users.id
-
 Ref:registerCommerces.commerce_id <> commerces.id
 
-  
-
 Table zones{
-
-  id int [primary key]
-
-  latitude decimal
-
-  longitude decimal
-
-  radius decimal
-
-  description string
-
-  content string
-
+	id int [primary key]
+	latitude decimal
+	longitude decimal
+	radius decimal
+	description string
+	content string
 }
-
-  
 
 Table registerZones{
-
-  user_id int [note: "Control de estadísticas del usuario"]
-
-  zone_id int
-
-  unlocked bool
-
+	user_id int [note: "Control de estadísticas del usuario"]
+	zone_id int
+	unlocked bool
 }
 
-  
-
 Ref:registerZones.user_id <> users.id
-
 Ref:registerZones.zone_id <> zones.id
 
   
 
-  
+Table commerces{
+	id int [primary key]
+	name string
+	description string
+}
 
 Table promotions{
-
-  id int [primary key]
-
-  title string
-
-  description string
-
-  content string
-
-  credits int [note: "Controlada con umbrales en un principio"]
-
+	id int [primary key]
+	commerce_id int
+	title string
+	description string
+	content string
+	credits int [note: "Controlada con umbrales en un principio"]
 }
 
-  
+Ref:promotions.commerce_id > commerces.id
+```
 
-Table commerces{
-
-  id int [primary key]
-
-  name string
-
-  description string
-
-  promotion_id int 
-
-}
-
-Ref:commerces.promotion_id < promotions.id
 ### CREACIÓN DE LA BASE DE DATOS
 Para la instalación de las migraciones en la base de datos debemos modificar en el fichero de .env (si se baja al local la primera vez, tendríamos un fichero que se llama .env_example, se modificaría en ese y se cambia el nombre a .env).
 

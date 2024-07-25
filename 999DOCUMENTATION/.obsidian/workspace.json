@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md"
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md"
               }
             }
           },
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+                "file": "100FUNCIONALIDADES BACKEND🧠/003API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,20 +193,20 @@
   },
   "active": "62b7bb421dd9c5ad",
   "lastOpenFiles": [
-    "100FUNCIONALIDADES BACKEND🧠/003API.md",
-    "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
     "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
+    "300CONFIGURACIÓN⚙️/301VERSIONES.md",
+    "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
+    "100FUNCIONALIDADES BACKEND🧠/003API.md",
+    "002React Native Visual Studio Extensions-20240708154759639.webp",
+    "002React Native Visual Studio Extensions-20240708154723654.webp",
     "600GESTIÓN DE PROYECTOS💵/610Product Backlog.md",
     "Excalidraw/001BASE DE DATOS 2024-07-06 19.48.12.excalidraw.md",
-    "300CONFIGURACIÓN⚙️/301VERSIONES.md",
     "600GESTIÓN DE PROYECTOS💵/620Sprint Backlog.md",
     "600GESTIÓN DE PROYECTOS💵/603Luis Kanvan.md",
     "600GESTIÓN DE PROYECTOS💵/602Jack Kanvan.md",
     "600GESTIÓN DE PROYECTOS💵/601Ende Kanvan.md",
     "500RECURSOS ÚTILES🍭/002React Native Visual Studio Extensions.md",
     "500RECURSOS ÚTILES🍭/001React Native Tutorial.md",
-    "002React Native Visual Studio Extensions-20240708154759639.webp",
-    "002React Native Visual Studio Extensions-20240708154723654.webp",
     "200FUNCIONALIDADES FRONTEND🌈/001REACT NATIVE.md",
     "600GESTIÓN DE PROYECTOS💵/SPRINTS SEMANALES",
     "700IMAGES/001BASE DE DATOS-20240706195250853.webp",
@@ -231,7 +231,6 @@
     "200 Trabajo/ASSETS/27-03-2023 Yu 2024-03-27 17.09.29.excalidraw.md",
     "200 Trabajo/Particulares/Yu/2024-03-07.md",
     "200 Trabajo/Particulares/Yu/2024-06-01 Yu.md",
-    "200 Trabajo/Particulares/Yu/2024-06-15 Yu.md",
     "2024-07-05-20240705122356213.webp",
     "200 Trabajo/Osunasport",
     "200 Trabajo/Osanasport",

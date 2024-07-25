@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 //MARK: MODELS CALL
 use App\Models\User;
 use App\Models\Zone;
-use App\Models\Registerzone;
+use App\Models\UserZone;
 use App\Models\Promotion;
 use App\Models\Commerce;
 use App\Models\Registercommerce;
@@ -94,8 +94,8 @@ class DatabaseSeeder extends Seeder
         }
     }
 
-    //MARK: REGISTERZONES SEED
-    private $registerzones = [
+    //MARK: USERZONES SEED
+    private $userzoneNews = [
         [
             'user_id' => 1,
             'zone_id' => 1,
@@ -129,18 +129,10 @@ class DatabaseSeeder extends Seeder
         ]
     ];
 
-    private function seedRegisterZones()
+    private function seedUserZones()
     {
-        DB::table('registerzones')->delete();
-        foreach ($this->registerzones as $registerzone) {
-
-            $rz = new Registerzone;
-            $rz->user_id = $registerzone['user_id'];
-            $rz->zone_id = $registerzone['zone_id'];
-            $rz->unlocked = $registerzone['unlocked'];
-            $rz->save();
-
-        }
+        DB::table('user_zone')->delete();
+        DB::table('user_zone')->insert($this->userzoneNews);
     }
 
     //MARK: PROMOTIONS SEED
@@ -251,8 +243,8 @@ class DatabaseSeeder extends Seeder
         self::seedZones();
         $this->command->info("Tabla zones inicializada con datos!");
 
-        self::seedRegisterZones();
-        $this->command->info("Tabla registerzone inicializada con datos!");
+        self::seedUserZones();
+        $this->command->info("Tabla user_zone inicializada con datos!");
 
         self::seedCommerces();
         $this->command->info("Tabla commerces inicializada con datos!");
