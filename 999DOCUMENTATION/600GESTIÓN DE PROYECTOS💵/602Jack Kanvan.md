@@ -10,6 +10,7 @@ kanban-plugin: basic
 
 ## DOING
 
+- [ ] EXP001-Inicio
 
 
 ## DONE
