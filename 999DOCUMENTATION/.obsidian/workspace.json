@@ -11,8 +11,10 @@
             "id": "62b7bb421dd9c5ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "700IMAGES/002React Native Visual Studio Extensions-20240708154723654.webp"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "700IMAGES/002React Native Visual Studio Extensions-20240708154723654.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +107,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "700IMAGES/002React Native Visual Studio Extensions-20240708154723654.webp"
+              }
             }
           },
           {
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "700IMAGES/002React Native Visual Studio Extensions-20240708154723654.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -183,8 +189,10 @@
       "obsidian-extract-pdf-highlights:PDF Highlights": false
     }
   },
-  "active": "62b7bb421dd9c5ad",
+  "active": "bab2f1ccadbad76e",
   "lastOpenFiles": [
+    "700IMAGES/002React Native Visual Studio Extensions-20240708154759639.webp",
+    "700IMAGES/002React Native Visual Studio Extensions-20240708154723654.webp",
     "Excalidraw/001BASE DE DATOS 2024-07-06 19.48.12.excalidraw.md",
     "Excalidraw",
     "700IMAGES/Pasted Image 20240706194817_083.png",
@@ -211,8 +219,6 @@
     "100FUNCIONALIDADES BACKEND🧠/002MODELOS.md",
     "100FUNCIONALIDADES BACKEND🧠/001BASE DE DATOS.md",
     "100FUNCIONALIDADES BACKEND🧠",
-    "002React Native Visual Studio Extensions-20240708154759639.webp",
-    "002React Native Visual Studio Extensions-20240708154723654.webp",
     "100FUNCIONALIDADES BACKED/001MODELOS.md",
     "100FUNCIONALIDADES BACKED",
     "600GESTIÓN DE PROYECTOS💵/SPRINTS SEMANALES",
