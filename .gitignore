@@ -25,6 +25,8 @@ yarn-error.log
 # OR only to exclude workspace cache
 999DOCUMENTATION/.obsidian/workspace/*
 
+999DOCUMENTATION/.obsidian/appearance/*
+
 # Exclude plugins
 999DOCUMENTATION/.obsidian/plugins/*
 
