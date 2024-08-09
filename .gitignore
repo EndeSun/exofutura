@@ -20,28 +20,28 @@ yarn-error.log
 /.vscode
 
 # to exclude Obsidian workspace settings (including plugin and hotkey configurations)
-.obsidian/*
+999DOCUEMENTATION/.obsidian/*
 
 # OR only to exclude workspace cache
-.obsidian/workspace/*
+999DOCUEMENTATION/.obsidian/workspace/*
 
 # Exclude plugins
-.obsidian/plugins/*
+999DOCUEMENTATION/.obsidian/plugins/*
 
 # Exclude consultant specific files "personal"
-05*-*Personal/
+999DOCUEMENTATION/05*-*Personal/
 
 # Exclude Day Planner directory placed in vault root
-Day*Planners/*
+999DOCUEMENTATION/Day*Planners/*
 
 # This file is used to keep track of last auto backup/pull
-.obsidian-git-data
+999DOCUEMENTATION/.obsidian-git-data
 
 # Exclude Untitled Notes
-Untitled*
+999DOCUEMENTATION/Untitled*
 # Exclude "bad" names
-null*
+999DOCUEMENTATION/null*
 
 # Add below lines to exclude OS settings and caches
-.trash/
-.DS_Store
+999DOCUEMENTATION/.trash/
+999DOCUEMENTATION/.DS_Store
