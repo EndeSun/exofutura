@@ -1,3 +1,0 @@
-- [x] EX001. Creación de la base de datos y documentación de los comandos en el terminal. ENDE.
-- [x] EX002. Creación de las semillas para rellenar los datos. ENDE
-- [x] EX003. Creación de APIRoutes y exposición de la rutaAPI con un get. ENDE
