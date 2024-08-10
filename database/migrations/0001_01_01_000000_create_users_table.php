@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
+            $table->integer('credits_used');
+            $table->integer('credits_got');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
