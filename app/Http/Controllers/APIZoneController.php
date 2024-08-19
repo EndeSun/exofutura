@@ -44,7 +44,7 @@ class APIZoneController extends Controller
         return response()->json($unlockedZones);
     }
 
-    public function putZoneDiscovery(Request $request, $userId, $zoneId)
+    public function putZoneDiscovery(Request $request, $zoneId, $userId)
     {
         $user = User::find($userId);
 

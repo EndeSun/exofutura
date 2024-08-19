@@ -23,7 +23,7 @@ Route::get('/v1/commerce/{commerceId}/promotions', [APIPromotionController::clas
 Route::apiResource('/v1/promotions', APIPromotionController::class);
 Route::get('/v1/users/{userId}/registerZones', [APIZoneController::class, 'getUnlockedZonesByUser']);
 
-Route::put('/v1/zone/{userId}/{zoneId}', [APIZoneController::class, 'putZoneDiscovery']);
+Route::put('/v1/zone/{zoneId}/discover/{userId}', [APIZoneController::class, 'putZoneDiscovery']);
 
 
 
