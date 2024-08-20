@@ -98,34 +98,34 @@ class DatabaseSeeder extends Seeder
     private $userzoneNews = [
         [
             'user_id' => 1,
-            'zone_id' => 1,
-            'unlocked' => true
+            'zone_id' => 1//,
+            // 'unlocked' => true
         ],
         [
             'user_id' => 1,
-            'zone_id' => 2,
-            'unlocked' => true
+            'zone_id' => 2//,
+            // 'unlocked' => true
 
         ],
         [
             'user_id' => 1,
-            'zone_id' => 3,
-            'unlocked' => true
+            'zone_id' => 3//,
+            // 'unlocked' => true
         ],
         [
             'user_id' => 2,
-            'zone_id' => 1,
-            'unlocked' => true
+            'zone_id' => 1//,
+            // 'unlocked' => true
         ],
         [
             'user_id' => 3,
-            'zone_id' => 1,
-            'unlocked' => true
+            'zone_id' => 1//,
+            // 'unlocked' => true
         ],
         [
             'user_id' => 3,
-            'zone_id' => 2,
-            'unlocked' => true
+            'zone_id' => 2//,
+            // 'unlocked' => true
         ]
     ];
 
@@ -178,15 +178,18 @@ class DatabaseSeeder extends Seeder
     private $commerces = [
         [
             'name' => "Cervecería Ende",
-            'description' => "Vendemos todo tipo de cervezas artesanales"
+            'description' => "Vendemos todo tipo de cervezas artesanales",
+            'location' => "Alicante"
         ],
         [
             'name' => "Accesorios Jack",
-            'description' => "Vendemos todo tipo de accesorios industriales"
+            'description' => "Vendemos todo tipo de accesorios industriales",
+            'location' => "Zamora"
         ],
         [
             'name' => "Productos Luisjo",
-            'description' => "Vendemos todo tipo de productos fisioterapeuticos"
+            'description' => "Vendemos todo tipo de productos fisioterapeuticos",
+            'location' => "Alicante"
         ]
     ];
 

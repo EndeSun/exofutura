@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('user_zone', function (Blueprint $table) {
             $table->foreignId('user_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
             $table->foreignId('zone_id')->constrained()->onDelete('cascade')->onUpdate('cascade');
-            $table->boolean('unlocked')->default(false);
+            // $table->boolean('unlocked')->default(false);
             $table->timestamps();
         });
     }

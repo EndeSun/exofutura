@@ -52,7 +52,6 @@ class User extends Authenticatable
     // MARK: RELATIONSHIP WITH ZONES
     public function zones(): BelongsToMany
     {
-        return $this->belongsToMany(Zone::class, 'user_zone')
-                    ->withPivot('unlocked');
+        return $this->belongsToMany(Zone::class, 'user_zone');
     }
 }
