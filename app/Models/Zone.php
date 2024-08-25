@@ -16,8 +16,8 @@ class Zone extends Model
 
     public function users(): BelongsToMany
     {
-        return $this->belongsToMany(User::class)
-                    ->withPivot('unlocked');
+        return $this->belongsToMany(User::class);
+                    // ->withPivot('unlocked');
     }
 
 }

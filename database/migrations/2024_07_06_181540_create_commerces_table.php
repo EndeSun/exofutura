@@ -15,7 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('description');
-            $table->string('location');
+            $table->string('location'); #latitud y longitud
+            $table->string('zone'); # se puede inferir por la localización realmente
             $table->timestamps();
         });
     }
